@@ -13,7 +13,6 @@ pygame.display.set_caption("Game Name")
 # Game Font Style
 font = pygame.font.SysFont("arialblack", 40)
 
-
 #Button Images
 Start = pygame.image.load('images/Start.png').convert_alpha()
 Settings = pygame.image.load('images/Settings.png').convert_alpha()

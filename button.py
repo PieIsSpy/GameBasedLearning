@@ -9,6 +9,7 @@ class Button():
         self.rect.topleft = (x, y)
         self.clicked = False
 
+
     def draw(self, surface):
         action = False
         pos = pygame.mouse.get_pos()
